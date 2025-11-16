@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Contact | Marven Watches</title>
+  <link rel="stylesheet" href="assets/main.css"/>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">MARVEN</a>
+      <nav>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="cart.html">Cart <span id="cart-count"></span></a>
+        <a href="account.html">Account</a>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>WhatsApp: <a href="https://wa.me/919876543210" style="color:#2563EB">+91 98765 43210</a><br>
+       Email: <a href="mailto:support@marvenwatches.com" style="color:#2563EB">support@marvenwatches.com</a></p>
+    <form onsubmit="event.preventDefault();alert('Message sent!')">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </div>
+  <footer>
+    <p>&copy; 2025 Marven Watches. All Rights Reserved.</p>
+  </footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>

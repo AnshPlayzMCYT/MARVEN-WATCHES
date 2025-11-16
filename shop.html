@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Marven Watches | Shop</title>
+  <link rel="stylesheet" href="assets/main.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">MARVEN</a>
+      <nav>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="cart.html">Cart <span id="cart-count"></span></a>
+        <a href="account.html">Account</a>
+      </nav>
+    </div>
+  </header>
+  <section class="container">
+    <h2>Our Watches</h2>
+    <div class="products">
+      <div class="product-card">
+        <a href="product-p1.html"><img src="assets/IMG-20251106-WA0008.jpg" alt="Marven Azure"/></a>
+        <h3>Marven Azure</h3>
+        <p class="price">₹1,24,999</p>
+        <a href="product-p1.html" class="btn-secondary">View Details</a>
+        <button class="btn" onclick="addToCart('p1')">Add to Cart</button>
+      </div>
+      <!-- Add more products here -->
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Marven Watches. All Rights Reserved.</p>
+  </footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>

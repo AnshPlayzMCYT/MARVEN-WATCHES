@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marven Watches | Home</title>
+  <link rel="stylesheet" href="assets/main.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="logo">MARVEN</a>
+      <nav>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="cart.html">Cart <span id="cart-count"></span></a>
+        <a href="account.html">Account</a>
+      </nav>
+    </div>
+  </header>
+  <div class="hero">
+    <div class="hero-inner">
+      <h1>Define Your Ascent</h1>
+      <p>Swiss-inspired precision. Modern design. Crafted for a new generation of achievers.</p>
+      <a href="shop.html" class="btn">Shop Collection</a>
+    </div>
+  </div>
+  <section class="container">
+    <h2>Featured Collection</h2>
+    <div class="products">
+      <div class="product-card">
+        <a href="product-p1.html"><img src="assets/IMG-20251106-WA0008.jpg" alt="Marven Azure"/></a>
+        <h3>Marven Azure</h3>
+        <p class="price">₹1,24,999</p>
+        <a href="product-p1.html" class="btn-secondary">View Details</a>
+        <button class="btn" onclick="addToCart('p1')">Add to Cart</button>
+      </div>
+      <!-- Repeat this block for more watches -->
+    </div>
+  </section>
+  <footer>
+    <p>&copy; 2025 Marven Watches. All Rights Reserved.</p>
+  </footer>
+  <script src="assets/main.js"></script>
+</body>
+</html>
